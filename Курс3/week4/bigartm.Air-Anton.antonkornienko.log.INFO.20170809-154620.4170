@@ -1,0 +1,55 @@
+Log file created at: 2017/08/09 15:46:20
+Running on machine: Air-Anton
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0809 15:46:20.172755 3356324800 c_interface.cc:102] Logging enabled to .
+I0809 15:46:20.173970 3356324800 c_interface.cc:246] Creating MasterModel (id=1)...
+I0809 15:46:20.177183 3356324800 collection_parser.cc:534] CollectionParserConfig.num_threads is automatically set to 4
+W0809 15:46:20.385148 290537472 helpers.cc:211] File already exists: school_batches/aaaaaa.batch
+W0809 15:46:20.411376 291074048 helpers.cc:211] File already exists: school_batches/aaaaab.batch
+W0809 15:46:20.442733 290000896 helpers.cc:211] File already exists: school_batches/aaaaac.batch
+W0809 15:46:20.495803 291610624 helpers.cc:211] File already exists: school_batches/aaaaad.batch
+W0809 15:46:20.608563 290537472 helpers.cc:211] File already exists: school_batches/aaaaae.batch
+I0809 15:46:20.634699 3356324800 c_interface.cc:345] Pass 3cb57bf6-2637-4503-84ec-81958d30493a to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0809 15:46:20.634934 3356324800 c_interface.cc:359] Pass GatherDictionaryArgs: dictionary_target_name=3cb57bf6-2637-4503-84ec-81958d30493a, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0809 15:46:20.635083 3356324800 dictionary_operations.cc:235] Found 5 batches in 'school_batches' folder
+I0809 15:46:20.691699 3356324800 dictionary_operations.cc:292] Find 16099 unique tokens in 476 items
+I0809 15:46:20.735148 3356324800 c_interface.cc:246] Creating MasterModel (id=2)...
+I0809 15:46:20.735482 3356324800 c_interface.cc:345] Pass 89a2d378-021c-4865-a8e3-297101bd2316 to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0809 15:46:20.735688 3356324800 c_interface.cc:359] Pass GatherDictionaryArgs: dictionary_target_name=89a2d378-021c-4865-a8e3-297101bd2316, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0809 15:46:20.735822 3356324800 dictionary_operations.cc:235] Found 5 batches in 'school_batches' folder
+I0809 15:46:20.805768 3356324800 dictionary_operations.cc:292] Find 16099 unique tokens in 476 items
+I0809 15:46:20.835988 3356324800 c_interface.cc:345] Pass 3cb57bf6-2637-4503-84ec-81958d30493a to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0809 15:46:20.840647 3356324800 c_interface.cc:309] Disposing MasterComponent (id=1)...
+I0809 15:46:20.856498 3356324800 instance.cc:380] MasterModelConfig.processors_count is automatically set to 4
+I0809 15:46:20.856593 306827264 processor.cc:643] Processor thread started
+I0809 15:46:20.856681 307363840 processor.cc:643] Processor thread started
+I0809 15:46:20.856741 307900416 processor.cc:643] Processor thread started
+I0809 15:46:20.856799 308436992 processor.cc:643] Processor thread started
+I0809 15:46:20.856830 3356324800 c_interface.cc:246] Creating MasterModel (id=3)...
+I0809 15:46:20.868052 3356324800 c_interface.cc:359] Pass MasterModelConfig: topic_name_size=10, class=(text:1), score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path to MN4artm4core15MasterComponentEFvRKNS_17MasterModelConfigEE
+I0809 15:46:20.868098 3356324800 instance.cc:380] MasterModelConfig.processors_count is automatically set to 4
+I0809 15:46:20.868118 3356324800 perplexity.cc:24] Perplexity score calculator created: model_type=0
+I0809 15:46:20.868852 3356324800 c_interface.cc:359] Pass MasterModelConfig: topic_name_size=10, class=(text:1), score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path to MN4artm4core15MasterComponentEFvRKNS_17MasterModelConfigEE
+I0809 15:46:20.868881 3356324800 instance.cc:380] MasterModelConfig.processors_count is automatically set to 4
+I0809 15:46:20.868896 3356324800 perplexity.cc:24] Perplexity score calculator created: model_type=0
+I0809 15:46:20.869735 3356324800 c_interface.cc:359] Pass MasterModelConfig: topic_name_size=10, class=(text:1), score_config_size=4, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path to MN4artm4core15MasterComponentEFvRKNS_17MasterModelConfigEE
+I0809 15:46:20.869793 3356324800 instance.cc:380] MasterModelConfig.processors_count is automatically set to 4
+I0809 15:46:20.869814 3356324800 perplexity.cc:24] Perplexity score calculator created: model_type=0
+I0809 15:46:20.870522 3356324800 c_interface.cc:359] Pass MasterModelConfig: topic_name_size=10, class=(text:1), score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path to MN4artm4core15MasterComponentEFvRKNS_17MasterModelConfigEE
+I0809 15:46:20.870548 3356324800 instance.cc:380] MasterModelConfig.processors_count is automatically set to 4
+I0809 15:46:20.870563 3356324800 perplexity.cc:24] Perplexity score calculator created: model_type=0
+I0809 15:46:20.878929 306827264 processor.cc:659] No data in processing queue, waiting...
+I0809 15:46:20.878973 308436992 processor.cc:659] No data in processing queue, waiting...
+I0809 15:46:20.879057 307900416 processor.cc:659] No data in processing queue, waiting...
+I0809 15:46:20.879757 307363840 processor.cc:659] No data in processing queue, waiting...
+I0809 15:52:41.877797 308436992 processor.cc:651] Processor thread stopped
+I0809 15:52:41.877925 308436992 processor.cc:652] Total number of processed batches: 0
+I0809 15:52:41.878963 307900416 processor.cc:651] Processor thread stopped
+I0809 15:52:41.879017 307900416 processor.cc:652] Total number of processed batches: 0
+I0809 15:52:41.880302 307363840 processor.cc:651] Processor thread stopped
+I0809 15:52:41.880343 307363840 processor.cc:652] Total number of processed batches: 0
+I0809 15:52:41.881609 306827264 processor.cc:651] Processor thread stopped
+I0809 15:52:41.881651 306827264 processor.cc:652] Total number of processed batches: 0
+I0809 15:52:41.881770 3356324800 c_interface.cc:309] Disposing MasterComponent (id=3)...
+I0809 15:52:41.881950 3356324800 c_interface.cc:345] Pass 89a2d378-021c-4865-a8e3-297101bd2316 to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0809 15:52:41.886168 3356324800 c_interface.cc:309] Disposing MasterComponent (id=2)...

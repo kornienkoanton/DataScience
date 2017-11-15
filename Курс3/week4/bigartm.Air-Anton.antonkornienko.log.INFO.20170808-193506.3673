@@ -1,0 +1,38 @@
+Log file created at: 2017/08/08 19:35:06
+Running on machine: Air-Anton
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0808 19:35:06.433177 3356324800 c_interface.cc:102] Logging enabled to .
+I0808 19:35:06.435030 3356324800 c_interface.cc:246] Creating MasterModel (id=1)...
+I0808 19:35:06.438771 3356324800 collection_parser.cc:534] CollectionParserConfig.num_threads is automatically set to 4
+I0808 19:35:06.791528 3356324800 c_interface.cc:345] Pass 462e71ec-9877-43df-8794-3ae381f381c6 to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0808 19:35:06.793238 3356324800 c_interface.cc:359] Pass GatherDictionaryArgs: dictionary_target_name=462e71ec-9877-43df-8794-3ae381f381c6, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0808 19:35:06.793426 3356324800 dictionary_operations.cc:235] Found 5 batches in 'school_batches' folder
+I0808 19:35:06.842428 3356324800 dictionary_operations.cc:292] Find 16099 unique tokens in 476 items
+I0809 15:26:38.233875 3356324800 c_interface.cc:246] Creating MasterModel (id=2)...
+I0809 15:26:38.238065 3356324800 c_interface.cc:345] Pass bd5ab4c2-9890-48e0-b611-42905c68babd to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0809 15:26:38.241830 3356324800 c_interface.cc:359] Pass GatherDictionaryArgs: dictionary_target_name=bd5ab4c2-9890-48e0-b611-42905c68babd, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0809 15:26:38.245096 3356324800 dictionary_operations.cc:235] Found 5 batches in 'school_batches' folder
+I0809 15:26:38.337091 3356324800 dictionary_operations.cc:292] Find 16099 unique tokens in 476 items
+I0809 15:26:38.371997 3356324800 c_interface.cc:345] Pass 462e71ec-9877-43df-8794-3ae381f381c6 to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0809 15:26:38.389132 3356324800 c_interface.cc:309] Disposing MasterComponent (id=1)...
+I0809 15:26:43.242650 3356324800 instance.cc:380] MasterModelConfig.processors_count is automatically set to 4
+I0809 15:26:43.243511 74444800 processor.cc:643] Processor thread started
+I0809 15:26:43.243566 3356324800 c_interface.cc:246] Creating MasterModel (id=3)...
+I0809 15:26:43.243628 74981376 processor.cc:643] Processor thread started
+I0809 15:26:43.243662 75517952 processor.cc:643] Processor thread started
+I0809 15:26:43.243688 76054528 processor.cc:643] Processor thread started
+I0809 15:26:43.267601 74444800 processor.cc:659] No data in processing queue, waiting...
+I0809 15:26:43.267652 76054528 processor.cc:659] No data in processing queue, waiting...
+I0809 15:26:43.267673 75517952 processor.cc:659] No data in processing queue, waiting...
+I0809 15:26:43.268085 74981376 processor.cc:659] No data in processing queue, waiting...
+I0809 15:35:26.468489 76054528 processor.cc:651] Processor thread stopped
+I0809 15:35:26.468578 76054528 processor.cc:652] Total number of processed batches: 0
+I0809 15:35:26.469779 75517952 processor.cc:651] Processor thread stopped
+I0809 15:35:26.469827 75517952 processor.cc:652] Total number of processed batches: 0
+I0809 15:35:26.471163 74981376 processor.cc:651] Processor thread stopped
+I0809 15:35:26.471202 74981376 processor.cc:652] Total number of processed batches: 0
+I0809 15:35:26.472460 74444800 processor.cc:651] Processor thread stopped
+I0809 15:35:26.472491 74444800 processor.cc:652] Total number of processed batches: 0
+I0809 15:35:26.472604 3356324800 c_interface.cc:309] Disposing MasterComponent (id=3)...
+I0809 15:35:26.472751 3356324800 c_interface.cc:345] Pass bd5ab4c2-9890-48e0-b611-42905c68babd to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0809 15:35:26.477638 3356324800 c_interface.cc:309] Disposing MasterComponent (id=2)...

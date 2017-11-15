@@ -1,0 +1,8 @@
+Log file created at: 2017/08/09 15:46:20
+Running on machine: Air-Anton
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0809 15:46:20.385148 290537472 helpers.cc:211] File already exists: school_batches/aaaaaa.batch
+W0809 15:46:20.411376 291074048 helpers.cc:211] File already exists: school_batches/aaaaab.batch
+W0809 15:46:20.442733 290000896 helpers.cc:211] File already exists: school_batches/aaaaac.batch
+W0809 15:46:20.495803 291610624 helpers.cc:211] File already exists: school_batches/aaaaad.batch
+W0809 15:46:20.608563 290537472 helpers.cc:211] File already exists: school_batches/aaaaae.batch
